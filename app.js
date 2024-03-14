@@ -4,7 +4,10 @@ function myfunction(){
     let value1 = +val1
     let value2 = +val2
     const add = parseInt(eval(value1 + value2)) 
-    document.write(add)
+    const sub = parseInt(eval(value1 - value2)) 
+    const multiply = parseInt(eval(value1 * value2)) 
+    const divide = parseInt(eval(value1 / value2)) .
+    document.write("Total Sum  :- " + add +"<br>" + "Total Subtract  :- " + sub + "<br>" + "Total Multtipication  :-" + multiply)
    
 
 }
