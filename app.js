@@ -6,8 +6,6 @@ function myfunction(){
     const add = parseInt(eval(value1 + value2)) 
     const sub = parseInt(eval(value1 - value2)) 
     const multiply = parseInt(eval(value1 * value2)) 
-    const divide = parseInt(eval(value1 / value2)) .
-    document.write("Total Sum  :- " + add +"<br>" + "Total Subtract  :- " + sub + "<br>" + "Total Multtipication  :-" + multiply)
-   
-
+    const divide = parseInt(eval(value1 / value2)) 
+    document.write("Total Sum  :- " + add +"<br>" + "Total Subtract  :- " + sub + "<br>" + "Total Multtipication  :-" + multiply + "<br>" + "Total Division" + divide)
 }
